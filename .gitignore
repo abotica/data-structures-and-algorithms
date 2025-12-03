@@ -1,0 +1,115 @@
+# Classic generic .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Logs and databases
+*.log
+logs/
+*.sql
+*.sqlite
+*.sqlite3
+
+# Runtime / env
+.env
+.env.*.local
+.env.local
+*.pid
+*.seed
+*.pid.lock
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+venv/
+.env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+.eggs/
+.pytest_cache/
+
+# Java / JVM
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.class
+.mvn/
+.gradle/
+build/
+
+# Go
+/bin/
+pkg/
+*.exe
+*.test
+
+# Rust
+/target/
+
+# C/C++
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+build/
+bin/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# Editor swap / backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Package managers / lock files (optional - adjust to project needs)
+# package-lock.json
+# yarn.lock
+# composer.lock
+
+# Coverage, reports, cache
+coverage/
+.nyc_output/
+.coverage
+.cache/
+reports/
+
+# Misc
+*.zip
+*.tar.gz
+*.rar
+.Dockerfile.swp
